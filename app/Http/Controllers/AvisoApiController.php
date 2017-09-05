@@ -34,6 +34,7 @@ class AvisoApiController extends Controller
                     'idAviso' => $aviso->idAviso,
                     'titleAviso' => $aviso->titleAviso,
                     'cursoAviso' => $curso->nameCurso,
+					'cursoIdAviso' => $curso->idCurso,
                     'textAviso' => $aviso->textAviso
                 ]);
             }
